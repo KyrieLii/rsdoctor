@@ -501,6 +501,9 @@ importers:
         specifier: ^3.24.1
         version: 3.24.1
     devDependencies:
+      '@rsdoctor/types':
+        specifier: 'workspace: *'
+        version: link:../types
       '@rslib/core':
         specifier: ^0.2.2
         version: 0.2.2(typescript@5.7.2)
@@ -510,6 +513,9 @@ importers:
       dotenv:
         specifier: ^16.4.7
         version: 16.4.7
+      socket.io-client:
+        specifier: 4.6.1
+        version: 4.6.1
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -19936,7 +19942,7 @@ packages:
     engines: {node: '>=10.0.0'}
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.6
+      debug: 4.3.7(supports-color@5.5.0)
       engine.io-client: 6.4.0
       socket.io-parser: 4.2.4
     transitivePeerDependencies:
